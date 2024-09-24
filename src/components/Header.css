@@ -1,0 +1,52 @@
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust as needed */
+    cursor: pointer;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 0 4px 4px 0;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .location-selector select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .liked-bikes {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .login-register button {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+   

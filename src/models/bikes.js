@@ -1,4 +1,15 @@
-export const bikeObject=(bikes,model)=>{
-return bikes.find(bike=>bike.model===model)
+export const locateBike = (collection, targetModel) => {
+    return collection.find(item => item.model === targetModel);
+}
+export const locateCity = (collection, targetModel) => {
+    return collection.find(item => item.city === targetModel);
+}
 
+export const cityName=(cityObject)=>{
+    const citys=cityObject.map(city=>city.city)
+    return citys.filter((city,index,array)=>array.indexOf(city)===index)
+}
+
+export const convertCurrencyToInt=(currencyString)=> {
+    return parseInt(currencyString.replace(/[₹,]/g, ""));
 }

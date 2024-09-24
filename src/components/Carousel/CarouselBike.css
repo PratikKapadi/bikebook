@@ -1,0 +1,41 @@
+
+
+  .carousel-container {
+      width: 100%;
+      margin: 0 auto;
+      text-align: left;
+      margin-top: 20px;
+      
+    }
+    
+    .carousel-title {
+      
+      margin-top: 20px;
+      
+      margin-bottom: 20px;
+      color: #2d2b2b; 
+    }
+    
+    .image-slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 20px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      transition: transform 0.3s ease;
+    }
+  
+    .image-slide img:hover {
+      transform: scale(1.05); 
+    }
+    
+    .slick-dots {
+      bottom: -30px;
+    }
+    
+    .slick-dots li button:before {
+      color: rgb(26, 25, 25); 
+    }
+    
+    .slick-center img {
+      transform: scale(1.1); 
+    }

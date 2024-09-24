@@ -1,11 +1,13 @@
+import { useParams } from "react-router-dom";
 import bikes from "../../database/bikes_data";
-import { bikeObject } from "../../models/bikes";
+import { locateBike } from "../../models/bikes";
 import BikeFeatures from "./BikeFeatures";
 import BikeName from "./BikeName";
 import BikeReviews from "./BikeReviews";
 import BikeSpecs from "./BikeSpecs";
-const BikeDetails = ({ model }) => {
-	const bike = bikeObject(bikes, model);
+const BikeDetails = () => {
+	const {model}=useParams();
+	const bike = locateBike(bikes, model);
 
 	return (
 		<div className="container">

@@ -5,7 +5,7 @@ const bikes = [
         brand: "Royal Enfield",
         type: "Cruiser",
         year: 2023,
-        imageURL: "/asset/images/Bikes/royal_enfield_hunter_350.png",
+        imageURL: "/asset/images/Bike/royal_enfield_hunter_350.png",
         description: "The Royal Enfield Hunter 350 is a stylish and feature-packed motorcycle that is designed to appeal to a wide range of riders.",
         specifications: {
             Engine: "349cc",
@@ -78,7 +78,7 @@ const bikes = [
         brand: "Yamaha",
         type: "Sportbike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/yamaha_r15_v4.png",
+        imageURL: "/asset/images/Bike/yamaha_r15_v4.png",
         description: "The Yamaha R15 V4 is the perfect supersport for those who want to learn and be a better rider on the race track, and as a consequence, on public roads as well. It may have a not-so-practical riding posture but if you can overlook that aspect, it's a fantastic, feature-packed bike in its segment.",
         specifications: {
             Engine: "155cc",
@@ -151,7 +151,7 @@ const bikes = [
         brand: "Bajaj",
         type: "Naked Bike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/bajaj_pulsar_n160.png",
+        imageURL: "/asset/images/Bike/bajaj_pulsar_n160.png",
         description: "The Bajaj Pulsar N160 stands out in the 160cc segment with its impressive performance, refinement, excellent brakes, and fantastic fuel economy. It handles well and changes directions quickly.",
         specifications: {
             Engine: "164.82cc",
@@ -224,7 +224,7 @@ const bikes = [
         brand: "OLA",
         type: "Electric Scooter",
         year: 2024,
-        imageURL: "/asset/images/Bikes/ola_s1_pro.png",
+        imageURL: "/asset/images/Bike/ola_s1_pro.png",
         description: "Overall, the Ola S1 Pro is a powerful electric scooter with modern functions and an attractive look. It has a high peak speed and a long range, making it a viable and environmentally friendly mode of transportation. However, its hefty price may deter some purchasers.",
         specifications: {
             Engine: "Electric",
@@ -297,7 +297,7 @@ const bikes = [
         brand: "Honda",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/honda_activa_6g.png",
+        imageURL: "/asset/images/Bike/honda_activa_6g.png",
         description: "The Honda Activa has been the brand’s best selling two-wheeler for quite some time now, and is also India’s highest-selling scooter. Honda revolutionised the scooter segment in our country with the Activa and because of its presence in India for more than two decades now, the Activa has become “India’s favourite scooter",
         specifications: {
             Engine: "109.51cc",
@@ -370,7 +370,7 @@ const bikes = [
         brand: "KTM",
         type: "Naked Bike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ktm_duke_390.png",
+        imageURL: "/asset/images/Bike/ktm_duke_390.png",
         description: "The KTM Duke 390 has become more practical while retaining all of KTM’s trademark madness. So if you want an aggressive, performance-oriented streetfighter, nothing beats the KTM 390 Duke in this segment, especially considering its mouth-watering price tag.",
         specifications: {
             Engine: "373.2cc",
@@ -443,7 +443,7 @@ const bikes = [
         brand: "Royal Enfield",
         type: "Adventure",
         year: 2024,
-        imageURL: "/asset/images/Bikes/royal_enfield_guerrilla_450.png",
+        imageURL: "/asset/images/Bike/royal_enfield_guerrilla_450.png",
         description: "The Royal Enfield Guerrilla 450 roadster is based on the same platform as the Himalayan 450. While it has a retro styling, it’s equipped with modern features, and has a liquid-cooled engine unlike any of the other retro-styled Royal Enfield bikes.",
         specifications: {
             Engine: "450cc",
@@ -516,7 +516,7 @@ const bikes = [
         brand: "Royal Enfield",
         type: "Cruiser",
         year: 2024,
-        imageURL: "/asset/images/Bikes/royal_enfield_shotgun_650.png",
+        imageURL: "/asset/images/Bike/royal_enfield_shotgun_650.png",
         description: "The Royal Enfield Shotgun 650 is a unique and exciting option in its category because it's the only bobber available there. It has a good combination of unique styling, torquey motor and good handling characteristics. The bike will be perfect for someone that is looking for a bike that will stand out amongst all the other bikes in the market currently.",
         specifications: {
             Engine: "648cc",
@@ -589,7 +589,7 @@ const bikes = [
         brand: "Royal Enfield",
         type: "Cruiser",
         year: 2023,
-        imageURL: "/asset/images/Bikes/royal_enfield_classic_350.png",
+        imageURL: "/asset/images/Bike/royal_enfield_classic_350.png",
         description: "the Royal Enfield Classic 350 stands as a well-built and reliable motorcycle with a timeless design. It presents an attractive option for riders seeking both comfort and style. Its limitations include its weight and somewhat lack of power.",
         specifications: {
             Engine: "349cc",
@@ -662,7 +662,7 @@ const bikes = [
         brand: "Royal Enfield",
         type: "Adventure",
         year: 2023,
-        imageURL: "/asset/images/Bikes/royal_enfield_himalayan.png",
+        imageURL: "/asset/images/Bike/royal_enfield_himalayan.png",
         description: "The Royal Enfield Himalayan 450 is an adventure bike and gets the brand’s first liquid-cooled single-cylinder engine. It can easily handle everyday commutes, long distance touring, and off-riding. ",
         specifications: {
             Engine: "411cc",
@@ -735,7 +735,7 @@ const bikes = [
         brand: "Yamaha",
         type: "Naked Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/yamaha_fzs_fi_v3.png",
+        imageURL: "/asset/images/Bike/yamaha_fzs_fi_v3.png",
         description: "The FZ-Fi V3 is a decent 150cc commuter. Sure the bike doesn’t pack many features as its competitors but it is able to offer a comfortable riding experience and the engine is very well refined and offers great mileage. It is a good option for those who are looking for a premium commuter in this segment.",
         specifications: {
             Engine: "149cc",
@@ -808,7 +808,7 @@ const bikes = [
         brand: "Yamaha",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/yamaha_fascino_125_fi_hybrid.png",
+        imageURL: "/asset/images/Bike/yamaha_fascino_125_fi_hybrid.png",
         description: "To the discerning rider, the Fascino may feel dated and lacking in features. But it is perfect for the average consumer who is looking to step up to the 125cc segment but does not want to let go of affordability and good mileage associated with 110cc scooters.",
         specifications: {
             Engine: "125cc",
@@ -881,7 +881,7 @@ const bikes = [
         brand: "Yamaha",
         type: "Retro Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/yamaha_fz_x.png",
+        imageURL: "/asset/images/Bike/yamaha_fz_x.png",
         description: "The Yamaha FZ-X looks unique and is based on the reliable Yamaha FZ platform. However, the performance is not really exciting and can be underwhelming for a 150cc bike. The FZ-X feels like a half-way product for riders who are waiting for the XSR155 to launch in India.",
         specifications: {
             Engine: "149cc",
@@ -954,7 +954,7 @@ const bikes = [
         brand: "Yamaha",
         type: "Naked Sport",
         year: 2024,
-        imageURL: "/asset/images/Bikes/yamaha_mt_15_v2.png",
+        imageURL: "/asset/images/Bike/yamaha_mt_15_v2.png",
         description: "The updates to the Yamaha MT 15 V2 have improved its handling and the addition of dual-channel ABS has made the braking even better. The bike now also has a wide range of colours to choose from. However, the lack of bottom-end performance and an expensive price tag makes it a slightly less desirable option in the segment.",
         specifications: {
             Engine: "155cc",
@@ -1027,7 +1027,7 @@ const bikes = [
         brand: "Bajaj",
         type: "Sport",
         year: 2023,
-        imageURL: "/asset/images/Bikes/bajaj_pulsar_180.png",
+        imageURL: "/asset/images/Bike/bajaj_pulsar_180.png",
         description: "The Bajaj Pulsar 180 is one of the best selling Bajaj bikes in India, and is also the cheapest 150cc bike in the country. While it was considered to be a performance bike when it was first launched, it is more of a sporty commuter bike now.",
         specifications: {
             Engine: "178.6cc",
@@ -1100,7 +1100,7 @@ const bikes = [
         brand: "Bajaj",
         type: "Electric Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/bajaj_chetak.png",
+        imageURL: "/asset/images/Bike/bajaj_chetak.png",
         description: "The Chetak electric scooter is the revival of the OG Chetak scooter of Bajaj in a modern electric avatar. This scooter is a big step forward for the company as it’s their first modern electric scooter.",
         specifications: {
             Engine: "Electric",
@@ -1173,7 +1173,7 @@ const bikes = [
         brand: "Bajaj",
         type: "Tourer",
         year: 2023,
-        imageURL: "/asset/images/Bikes/bajaj_dominar_400.png",
+        imageURL: "/asset/images/Bike/bajaj_dominar_400.png",
         description: "The Bajaj Dominar 400 is a great motorcycle in city traffic conditions and stands out with its muscular styling. It also offers good performance and gets an upright riding position, which makes it a great tourer as well.",
         specifications: {
             Engine: "373.3cc",
@@ -1246,7 +1246,7 @@ const bikes = [
         brand: "Bajaj",
         type: "Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/bajaj_pulsar_ns400z.png",
+        imageURL: "/asset/images/Bike/bajaj_pulsar_ns400z.png",
         description: "The Bajaj Pulsar NS400Z is an easily recommendable motorcycle for those looking for exciting performance on a strict budget, as long as they’re willing to live with some compromises. But for those with slightly higher budgets, there are far better options out there.",
         specifications: {
             Engine: "373.3cc",
@@ -1319,7 +1319,7 @@ const bikes = [
         brand: "OLA",
         type: "Electric Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ola_s1_x.png",
+        imageURL: "/asset/images/Bike/ola_s1_x.png",
         description: "Ola faced challenges in maintaining the initially proposed pricing for the S1 Air upon its launch in October 2022, primarily due to unexpected changes in FAME 2 subsidies. However, with the Ola S1 X series, it appears that the EV manufacturer can now provide a genuinely eco-friendly alternative at a price comparable to 100-110cc petrol-powered scooters.",
         specifications: {
             Engine: "Electric",
@@ -1392,7 +1392,7 @@ const bikes = [
         brand: "OLA",
         type: "Electric Bike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ola_roadster.png",
+        imageURL: "/asset/images/Bike/ola_roadster.png",
         description: "The Ola Roadster is a range of the electric bikes. It will have three variants – X, Standard, and Pro. These vary from each other in terms of battery, motor, range, and other features. ",
         specifications: {
             Engine: "Electric",
@@ -1465,7 +1465,7 @@ const bikes = [
         brand: "OLA",
         type: "Electric Bike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ola_roadster_pro.png",
+        imageURL: "/asset/images/Bike/ola_roadster_pro.png",
         description: "The Ola Roadster Pro is available in two variants with battery pack options of 8kWh and 16kWh. The 16kWh capacity battery pack has a claimed range of 579km, peak power output of 70.7PS and a top speed of 194kmph.",
         specifications: {
             Engine: "Electric",
@@ -1538,7 +1538,7 @@ const bikes = [
         brand: "OLA",
         type: "Electric Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ola_s1_air.png",
+        imageURL: "/asset/images/Bike/ola_s1_air.png",
         description: "The Ola S1 Air is a mid-level electric scooter in Ola Electric’s S1 range. It has a single battery pack option but offers a decent range and performance. ",
         specifications: {
             Engine: "Electric",
@@ -1611,7 +1611,7 @@ const bikes = [
         brand: "Hero",
         type: "Motorcycle",
         year: 2023,
-        imageURL: "/asset/images/Bikes/hero_mavrick_440.png",
+        imageURL: "/asset/images/Bike/hero_mavrick_440.png",
         description: "The Hero Mavrick 440 is available in three variants: Base, Mid and Top. The base variant is available in a single colour scheme called Arctic White and gets spoke wheels with tubed tyres. The Mid variant is available in two colour schemes: Fearless Red and Celestial Blue while the Top variant gets two colour options called Phantom Black and Enigma Black. The Mid and Top variants get alloy wheels with tubeless tyres. ",
         specifications: {
             Engine: "440cc",
@@ -1684,7 +1684,7 @@ const bikes = [
         brand: "Hero",
         type: "Motorcycle",
         year: 2023,
-        imageURL: "/asset/images/Bikes/hero_splendor_plus.png",
+        imageURL: "/asset/images/Bike/hero_splendor_plus.png",
         description: "The Hero Splendor is a decent motorcycle that is able to deliver reliable performance and a comfortable riding experience. The bike also comes with a decent set of features but when there are 110cc alternatives around at the same price, it doesn't make sense to go with the Spendor.",
         specifications: {
             Engine: "97.2cc",
@@ -1757,7 +1757,7 @@ const bikes = [
         brand: "Hero",
         type: "Motorcycle",
         year: 2023,
-        imageURL: "/asset/images/Bikes/hero_xtreme_125r.png",
+        imageURL: "/asset/images/Bike/hero_xtreme_125r.png",
         description: "The Hero Xtreme 125R is the cheapest 125cc sporty commuter bike with ABS in India. It is designed to offer a balance of sportiness, mileage and features, making it ideal for young buyers who want a good looking.",
         specifications: {
             Engine: "125cc",
@@ -1830,7 +1830,7 @@ const bikes = [
         brand: "Hero",
         type: "Adventure Motorcycle",
         year: 2023,
-        imageURL: "/asset/images/Bikes/hero_xpulse_200_4v.png",
+        imageURL: "/asset/images/Bike/hero_xpulse_200_4v.png",
         description: "View image gallery of Hero XPulse 200T 4V. XPulse 200T 4V has 13 pictures and 360 views. Take a look at the front & rear view, side & top view & up to date photo gallery of XPulse 200T 4V. Also Hero XPulse 200T 4V is available in 3 colours.",
         specifications: {
             Engine: "199.6cc",
@@ -1903,7 +1903,7 @@ const bikes = [
         brand: "Hero",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/hero_pleasure_plus.png",
+        imageURL: "/asset/images/Bike/hero_pleasure_plus.png",
         description: "This scooter is a great choice in the basic segment, especially for female drivers. It offers lower maintenance costs compared to other scooters from competing brands.",
         specifications: {
             Engine: "110cc",
@@ -1976,7 +1976,7 @@ const bikes = [
         brand: "Honda",
         type: "Commuter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/honda_shine.png",
+        imageURL: "/asset/images/Bike/honda_shine.png",
         description: "The Honda Shine 125 offers a nice package of a refined engine, good ride quality and decent looks. It doesn't have many features to offer like its competitors, but what it does bring to the table is reliable performance and good handling, which is ideal for a commuter bike.",
         specifications: {
             Engine: "124cc",
@@ -2049,7 +2049,7 @@ const bikes = [
         brand: "Honda",
         type: "Commuter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/honda_unicorn.png",
+        imageURL: "/asset/images/Bike/honda_unicorn.png",
         description: "The Honda Unicorn is a powerful and premium commuter motorcycle and undisputedly one of the best-selling bikes from the Japanese brand. Introduced in 2004, the Unicorn nameplate has stood the test of time in the competitive 150-200cc segment. It offers a good combination of style, features, performance, and reliability. ",
         specifications: {
             Engine: "162.7cc",
@@ -2122,7 +2122,7 @@ const bikes = [
         brand: "Honda",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/honda_dio.png",
+        imageURL: "/asset/images/Bike/honda_dio.png",
         description: "The Honda Dio is a stylish and reliable choice in the 110cc scooter segment. The H-smart variant adds keyless operation, but smartphone connectivity with navigation would have been a useful addition.",
         specifications: {
             Engine: "109.51cc",
@@ -2195,7 +2195,7 @@ const bikes = [
         brand: "Honda",
         type: "Naked Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/honda_hornet_2.0.png",
+        imageURL: "/asset/images/Bike/honda_hornet_2.0.png",
         description: "In India, the current crop of 200cc motorcycles are the real gateways into the world of sport riding. While 160cc nakeds have sporty credentials, they still have to be good commuters.",
         specifications: {
             Engine: "184.4cc",
@@ -2268,7 +2268,7 @@ const bikes = [
         brand: "KTM",
         type: "Naked Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ktm_duke_200.png",
+        imageURL: "/asset/images/Bike/ktm_duke_200.png",
         description: "The 200 Duke is the original bike that really introduced India to KTM and still remains a favourite among buyers. Although it hasn’t received a huge amount of updates since its inception, it still remains one of the most thrilling bikes you can get at this price point.",
         specifications: {
             Engine: "199.5cc",
@@ -2341,7 +2341,7 @@ const bikes = [
         brand: "KTM",
         type: "Sportbike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ktm_rc_200.png",
+        imageURL: "/asset/images/Bike/ktm_rc_200.png",
         description: "The new RC200 has evolved in all the right ways. It’s now much easier to live with everyday and will offer significantly more thrills when you decide to thrash it around corners. Overall, the KTM RC 200 is a great option for riders who are looking for a powerful and sporty motorcycle",
         specifications: {
             Engine: "199.5cc",
@@ -2414,7 +2414,7 @@ const bikes = [
         brand: "KTM",
         type: "Sportbike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ktm_rc_390.png",
+        imageURL: "/asset/images/Bike/ktm_rc_390.png",
         description: "The extensive enhancements in the latest iteration of the RC 390 render it a finely poised motorcycle suitable for both daily commuting and spirited weekend rides on twisty mountain roads or track outings. The advancements in the chassis and powertrain have elevated the bike's performance to such an extent that the existing tires find themselves slightly outmatched. ",
         specifications: {
             Engine: "373.2cc",
@@ -2487,7 +2487,7 @@ const bikes = [
         brand: "KTM",
         type: "Adventure",
         year: 2023,
-        imageURL: "/asset/images/Bikes/ktm_390_adventure.png",
+        imageURL: "/asset/images/Bike/ktm_390_adventure.png",
         description: "The KTM 390 Adventure is great for touring and quite good for off-road riding as well with its powerful motor, comfortable ergonomics and extensive list of features and rider aids. And with three different variants, you can pick and choose which one works out for you the best.",
         specifications: {
             Engine: "373.2cc",
@@ -2560,7 +2560,7 @@ const bikes = [
         brand: "TVS",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/tvs_jupiter.png",
+        imageURL: "/asset/images/Bike/tvs_jupiter.png",
         description: "The Jupiter 110 is one of TVS’ best-selling scooters in India and has been thoroughly updated for 2024.  It sports a modern design and is now powered by a new hybrid engine that claims improved performance and mileage.",
         specifications: {
             Engine: "109.7cc",
@@ -2633,7 +2633,7 @@ const bikes = [
         brand: "TVS",
         type: "Naked Street",
         year: 2023,
-        imageURL: "/asset/images/Bikes/tvs_apache_rtr_160.png",
+        imageURL: "/asset/images/Bike/tvs_apache_rtr_160.png",
         description: "The TVS Apache RTR 160 has been on sale for quite some time now and is one of the most popular TVS bikes in India. In order to keep it relevant, TVS updated it with new features, colours, and even some design tweaks making it look sharper.",
         specifications: {
             Engine: "159.7cc",
@@ -2706,7 +2706,7 @@ const bikes = [
         brand: "TVS",
         type: "Scooter",
         year: 2023,
-        imageURL: "/asset/images/Bikes/tvs_ntorq_125.png",
+        imageURL: "/asset/images/Bike/tvs_ntorq_125.png",
         description: "The TVS NTorq caters to a wide variety of riders with different preferences - the base model is for budget-conscious riders, the Race XP can be for enthusiasts who want performance and the XT is the perfect choice for tech-savvy buyers. The TVS NTorq is undoubtedly one of the finest scooters in India.",
         specifications: {
             Engine: "124.8cc",
@@ -2779,7 +2779,7 @@ const bikes = [
         brand: "TVS",
         type: "Cruiser",
         year: 2023,
-        imageURL: "/asset/images/Bikes/tvs_ronin.png",
+        imageURL: "/asset/images/Bike/tvs_ronin.png",
         description: "The TVS Ronin is a 225cc neo-retro roadster, which has the design elements of a cruiser and a scrambler. It is positioned as a premium commuter and offers adequate performance and comes with a bunch of features.",
         specifications: {
             Engine: "225.9cc",
@@ -2852,7 +2852,7 @@ const bikes = [
         brand: "TVS",
         type: "Sportbike",
         year: 2023,
-        imageURL: "/asset/images/Bikes/tvs_apache_rtr_310.png",
+        imageURL: "/asset/images/Bike/tvs_apache_rtr_310.png",
         description: "The TVS Apache RTR 310 can be a lot of fun as a sporty commuter given its good looks, peppy engine and effortless handling. So if you're looking for a feature-packed streetfighter that's quite fun in the city and don't intend to go out on the highway a lot, it can be a good option.",
         specifications: {
             Engine: "312.2cc",

@@ -1,6 +1,11 @@
 import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
 
 const BikeName = ({ bike }) => {
+	const navigate = useNavigate();
+	const handlePrice = () => {
+		navigate(`/OnRoadPrice/${bike.model}`);
+	  };
 	const [isExpand, setIsExpand] = useState(false);
 
 	const toggleDescription = () => {
@@ -31,7 +36,7 @@ const BikeName = ({ bike }) => {
 
 				<h2>{bike.price}.00</h2>
 				<p>*Ex-showroom price</p>
-				<button className="w-50 btn btn-danger">Get on Road Price</button>
+				<button className="w-50 btn btn-danger" onClick={handlePrice}>Get on Road Price</button>
 			</div>
 		</div>
 	);
