@@ -1,49 +1,74 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import bikes from "../../database/bikes_data";
+import { bikeByBrand, brandList } from "../../models/bikes";
 
 const BannerBikeFinder = () => {
+	const [bike, setBike] = useState({
+		brand: "",
+		model: "",
+	});
+	const navigate = useNavigate();
+	const brands = brandList(bikes);
+	const brandByBikeObject = bikeByBrand(bike.brand, bikes);
+	const handleSubmit = () => {
+		navigate(`/bike/${bike.model}`);
+	};
+
 	return (
 		<div
-			className="container-fluid mt-3 "
+			className="container-fluid mt-3 rounded-3"
 			id="bg"
 			style={{
 				backgroundImage: 'url("/asset/images/bikes/HD_440X.webp")',
 				backgroundRepeat: "no-repeat",
 				backgroundSize: "cover",
-				height: "1000px",
+				backgroundPosition: "center",
+				height: "100vh",
 			}}
 		>
 			<div className="mx-auto d-flex flex-column justify-content-center align-items-center h-100 gap-3">
 				<h4 className="text-center" style={{ color: "white" }}>
 					Discover the perfect bike
 				</h4>
-				<div className="d-flex  justify-content-center w-50">
-					<select
-						class="form-select text-center rounded-start-5"
-						aria-label="Default select example"
-					>
-						<option selected>Select Brand</option>
-						<option value="1">Royal Enfield</option>
-						<option value="2">Hero</option>
-						<option value="3">Ola</option>
-						<option value="3">KTM</option>
-						<option value="3">Honda</option>
-						<option value="3">Bajaj</option>
-					</select>
-					<select
-						class="form-select text-center rounded-end-5 "
-						aria-label="Default select example"
-					>
-						<option selected>Select Model</option>
-						<option value="1">Classic 350</option>
-						<option value="2">Xpulse</option>
-						<option value="3">FZ-X</option>
-						<option value="3">Dominor 400</option>
-						<option value="3">Duke 200</option>
-						<option value="3">Unicorn 150</option>
-					</select>
+				<div className="container">
+					<div className="row justify-content-center">
+						<div className="col-12 col-md-6 col-lg-4">
+							<div className="d-flex">
+								<select
+									className="form-select text-center rounded-start-5 "
+									aria-label="Select Brand"
+									onChange={(e) => setBike({ ...bike, brand: e.target.value })}
+								>
+									<option selected>Select Brands</option>
+									{brands.map((brand) => (
+										<option key={brand}>{brand}</option>
+									))}
+								</select>
+								<select
+									className="form-select text-center rounded-end-5"
+									aria-label="Select Model"
+									onChange={(e) => {
+										setBike({ ...bike, model: e.target.value });
+										console.log(e.target.value);
+									}}
+								>
+									<option selected>Select Models</option>
+									{brandByBikeObject.map((bike) => (
+										<option key={bike.model}>{bike.model}</option>
+									))}
+								</select>
+							</div>
+						</div>
+					</div>
 				</div>
-				<button className="btn btn-danger w-25 rounded-5">Search</button>
+
+				<button
+					className="btn btn-danger w-25 rounded-5"
+					onClick={handleSubmit}
+				>
+					Search
+				</button>
 			</div>
 		</div>
 	);

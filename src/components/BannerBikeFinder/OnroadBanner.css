@@ -1,0 +1,41 @@
+/* Add custom styling to adjust the position, overlay effect, etc. */
+
+.banner-image {
+    height: 100vh; /* Full viewport height for the image */
+    object-fit: cover;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .search-box {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark transparent box */
+    padding: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .search-box h2 {
+    color: #fff;
+  }
+  
+  .input-group .form-control {
+    height: 50px;
+    font-size: 18px;
+  }
+  
+  .input-group .btn {
+    font-size: 25px;
+    padding: 6px 15px;
+    margin-left:2px ;
+  }
+  

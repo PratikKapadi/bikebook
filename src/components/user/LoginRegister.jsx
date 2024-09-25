@@ -1,20 +1,22 @@
-import { useState } from "react";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
+import { useState } from "react";
 
-const LoginRegister = ()=>{
-    const [isNewUser,setIsNewUser] = useState(false);
+const LoginRegister = () => {
+	const [isNewUser, setIsNewUser] = useState(false);
 
-    const handleIsNewUser = ()=>{
-        setIsNewUser(true);
-    }
+	const handleNewUser = () => {
+		setIsNewUser(true);
+	};
 
-    return(
-        <div>
-            {isNewUser ? <SignUpForm existingUser={()=>setIsNewUser(false)}/> : <LoginForm newUser={handleIsNewUser}/>}
-        </div>
-    )
-
-}
-
+	return (
+		<div>
+			{isNewUser ? (
+				<SignUpForm existingUser={() => setIsNewUser(false)} />
+			) : (
+				<LoginForm newUser={handleNewUser} />
+			)}
+		</div>
+	);
+};
 export default LoginRegister;

@@ -4,57 +4,67 @@ const PopularBrands = () => {
 	return (
 		<div className="mt-3">
 			<h4>Popular Brands</h4>
-			<div class="d-flex justify-content-evenly mt-3">
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/royal_enfield.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/tvs.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/ktm.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/bajaj.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
+
+			<div className="row justify-content-center mt-3">
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/royal_enfield.jpg"
+						alt="Royal Enfield"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/tvs.jpg"
+						alt="TVS"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/ktm.jpg"
+						alt="KTM"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/bajaj.jpg"
+						alt="Bajaj"
+					/>
+				</div>
 			</div>
-			<div class="d-flex justify-content-evenly mt-3">
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/ola.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/honda.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/hero.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
-				<img
-					className="rounded-4 border border-black"
-					src="/asset/images/logo/yamaha.jpg"
-					alt="img not found"
-					style={{ height: "200px", width: "200px" }}
-				/>
+
+			<div className="row justify-content-center mt-3">
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/ola.jpg"
+						alt="Ola"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/honda.jpg"
+						alt="Honda"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/hero.jpg"
+						alt="Hero"
+					/>
+				</div>
+				<div className="col-6 col-sm-4 col-md-3 mb-3">
+					<img
+						className="rounded-4 border border-black img-fluid"
+						src="/asset/images/logo/yamaha.jpg"
+						alt="Yamaha"
+					/>
+				</div>
 			</div>
 		</div>
 	);

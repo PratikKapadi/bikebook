@@ -1,59 +1,58 @@
-import { useState } from "react";
-const LoginForm  = ({newUser}) => {
+import {Form,FormGroup,FormLabel,FormControl,Container, Button,FormText} from'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {useState} from "react"
+import { useNavigate } from "react-router-dom";
 
-    const [user,setUser] =  useState({
+
+const LoginForm = ({newUser})=>{
+    const [user,setUser] = useState({
         username:"",
-        password:""
-    });
-
-    // event handler to handle username change event
-
-    const handleUsernameChange = (e)=>{
-        setUser({...user,username:e.target.value})
+        password:''
+    })
+    const navigate = useNavigate();
+    //event  handler to handle  username change event
+    const handleUsernameChange =(e)=>{setUser({...user,username:e.target.value})
     }
+     //event handler to handle password change event 
+    const handlePasswordChange = (e) =>setUser({...user,password: e.target.value})
 
-    // event handler to handle pasword change event
-
-    const handlePasswordChange = e =>{ setUser({...user,password:e.target.value})}
-
-    // event handler to submit  the form
-
+    //event handler to handle from submit event 
     const handleSubmit = (e)=>{
         e.preventDefault();
-        alert("Login form is submitted");
+        alert("Login Form is Submitted")
+        navigate(`/`);
 
     }
-
-
-    return(
-        <div className="container border border-dark p-3 mt-3 rounded w-50">
-            <h2 className='text-center'>Login Form</h2>
-            <form onSubmit={handleSubmit}>
-                <div  className="mb-3">
-
+                                                                    
+    return (
+        <div className="container border border-secondary p-3 mt-3 rounded w-25 shadow-lg">
+            <h3 className='text-center fw-bolder '>Login to Bikebook</h3>
+            <p className="mt-3 " >New user?<button className="btn btn-link fw-bolder" onClick={newUser}>Sign up</button></p>
+            <form onSubmit={handleSubmit}> 
+                <div className="mb-3">
                     <label className="form-label" htmlFor="un">Username</label>
-                    <input className="form-control" type="text" name="" id="un" placeholder="Enter Username" 
+                    <input className="form-control  border-secondary" id="un" type="text" placeholder="ENTER USERNAME" 
                     value={user.username}
                     onChange={handleUsernameChange} required/>
                 </div>
-                <div   className="mb-3">
-
+                <div className="mb-3">
                     <label className="form-label" htmlFor="pw">Password</label>
-                    <input className="form-control" type="password" id="pw" placeholder="Enter Your Password" value={user.password}
-                    onChange={handlePasswordChange} required/>
-
+                    <input  className="form-control  border-secondary"type="Password" id="pw" placeholder="ENTER PASSWORD"
+                    value={user.password}
+                    onChange={handlePasswordChange}required/>
                 </div>
                 <div className="text-center">
-                    <button className="btn btn-outline-success w-25" type="submit">Login</button>
-                </div>
-            </form>
-            <p>New User? Please <button onClick={newUser} className="btn btn-outline-dark"> Sign Up</button></p>
+                <Button className='me-3 w-75 bg-black text-Light border border-secondary fs-5 fw-bold' type='submit'>
+         Log In
+        </Button>
 
-            {/* <h2>Username: {user.username}</h2>
-            <h2>Password: {user.password}</h2> */}
-        </div>
+        
+     
+     </div>
+    </form>
+           
+</div>
     )
-
 }
-
 export default LoginForm;
+

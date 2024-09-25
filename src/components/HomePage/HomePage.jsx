@@ -3,9 +3,9 @@ import React from 'react';
 import BannerBikeFinder from '../BannerBikeFinder/BannerBikeFinder';
 import CarouselBike from '../Carousel/CarouselBike';
 import PopularBrands from '../PopularBrands';
-// import BannerGetonroad from '../TopSelingBikes';
 import TopSellingBikes from '../TopSelingBikes';
-import MainNavbar from '../MainNavbar';
+import UserReviews from '../UserReview/UserReviews';
+import OnroadBanner from '../BannerBikeFinder/OnroadBanner';
 
 
 
@@ -17,7 +17,9 @@ const HomePage = () => {
            <BannerBikeFinder/>
            <CarouselBike/>
            <PopularBrands/>
-           {/* <TopSellingBikes/> */}
+           <OnroadBanner/>
+           <TopSellingBikes/>
+           <UserReviews/>
         </div>
     );
 }
