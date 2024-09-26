@@ -8,8 +8,8 @@ const BikeSpecs = ({ specs }) => {
 				className="rounded p-1 pb-0 w-100 "
 				style={{ background: "#DCDADA" }}
 			>
-				<div className="container">
-					<div className="row">
+				<div className="container pt-0">
+					<div className="row ">
 						{Object.entries(specs).map(([key, value]) => (
 							<div className="col-12 col-md-6" key={key}>
 								<table className="table my-md-3">

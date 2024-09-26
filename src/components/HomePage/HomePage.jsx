@@ -12,8 +12,6 @@ import OnroadBanner from '../BannerBikeFinder/OnroadBanner';
 const HomePage = () => {
     return (
         <div className='container'>
-            
-           {/* <MainNavbar/> */}
            <BannerBikeFinder/>
            <CarouselBike/>
            <PopularBrands/>

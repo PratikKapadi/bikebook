@@ -16,7 +16,7 @@
       width: 100%;
       height: auto;
       max-height: 250px;
-      object-fit: contain;
+      object-fit: cover;
       border-radius: 10px;
       border: 2px solid #ddd;
       transition: transform 0.3s ease;
@@ -34,49 +34,6 @@
     .slick-dots li.slick-active button:before {
       color: #333;
     }
+
     
-    .slick-arrow {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: rgba(0, 0, 0, 0.5);
-      color: white;
-      border-radius: 50%;
-      width: 40px;
-      height: 40px;
-      z-index: 1;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      cursor: pointer;
-      font-size: 1.5rem;
-    }
-    
-    .prev-arrow {
-      left: -50px;
-    }
-    
-    .next-arrow {
-      right: -50px;
-    }
-    
-    @media (max-width: 1024px) {
-      .prev-arrow {
-        left: -30px;
-      }
-    
-      .next-arrow {
-        right: -30px;
-      }
-    }
-    
-    @media (max-width: 600px) {
-      .carousel-image {
-        max-height: 200px;
-      }
-    
-      .prev-arrow, .next-arrow {
-        display: none;
-      }
-    }
     

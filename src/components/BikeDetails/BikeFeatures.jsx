@@ -8,7 +8,7 @@ const BikeFeatures = ({ feature }) => {
 				className="rounded p-1 pb-0 w-100 "
 				style={{ background: "#DCDADA" }}
 			>
-				<div className="container">
+				<div className="container pt-0">
 					<div className="row">
 						{Object.entries(feature).map(([key, value]) => (
 							<div className="col-12 col-md-6" key={key}>

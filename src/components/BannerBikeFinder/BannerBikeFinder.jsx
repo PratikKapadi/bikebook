@@ -17,7 +17,7 @@ const BannerBikeFinder = () => {
 
 	return (
 		<div
-			className="container-fluid mt-3 rounded-3"
+			className="container-fluid rounded-3"
 			id="bg"
 			style={{
 				backgroundImage: 'url("/asset/images/bikes/HD_440X.webp")',
@@ -36,26 +36,29 @@ const BannerBikeFinder = () => {
 						<div className="col-12 col-md-6 col-lg-4">
 							<div className="d-flex">
 								<select
-									className="form-select text-center rounded-start-5 "
+									className="form-select text-center rounded-start-5"
 									aria-label="Select Brand"
+									value={bike.brand}
 									onChange={(e) => setBike({ ...bike, brand: e.target.value })}
 								>
-									<option selected>Select Brands</option>
+									<option value="">Select Brands</option>
 									{brands.map((brand) => (
-										<option key={brand}>{brand}</option>
+										<option key={brand} value={brand}>
+											{brand}
+										</option>
 									))}
 								</select>
 								<select
 									className="form-select text-center rounded-end-5"
 									aria-label="Select Model"
-									onChange={(e) => {
-										setBike({ ...bike, model: e.target.value });
-										console.log(e.target.value);
-									}}
+									value={bike.model}
+									onChange={(e) => setBike({ ...bike, model: e.target.value })}
 								>
-									<option selected>Select Models</option>
+									<option value="">Select Models</option>
 									{brandByBikeObject.map((bike) => (
-										<option key={bike.model}>{bike.model}</option>
+										<option key={bike.model} value={bike.model}>
+											{bike.model}
+										</option>
 									))}
 								</select>
 							</div>

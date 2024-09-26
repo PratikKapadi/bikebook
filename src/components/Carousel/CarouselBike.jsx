@@ -2,22 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import "./CarouselBike.css"; // Custom styles
+import "./CarouselBike.css";
 
 const CarouselBike = () => {
-	// Custom previous and next arrows for better control
-	const PreviousArrow = ({ onClick }) => (
-		<div className="slick-arrow prev-arrow" onClick={onClick}>
-			<FaChevronLeft />
-		</div>
-	);
 
-	const NextArrow = ({ onClick }) => (
-		<div className="slick-arrow next-arrow" onClick={onClick}>
-			<FaChevronRight />
-		</div>
-	);
 
 	const settings = {
 		dots: true,
@@ -30,8 +18,7 @@ const CarouselBike = () => {
 		centerMode: true,
 		centerPadding: "0",
 		focusOnSelect: true,
-		nextArrow: <NextArrow />,
-		prevArrow: <PreviousArrow />,
+		
 		responsive: [
 			{
 				breakpoint: 1024,
@@ -52,20 +39,20 @@ const CarouselBike = () => {
 
 	return (
 		<div className="container mt-5">
-			<h4 className="text-center mb-4">Popular Bikes</h4>
+			<h4 className="text-left mb-4">Popular Bikes</h4>
 			<div className="carousel-container">
 				<Slider {...settings}>
 					<div className="image-slide">
-						<img src="/asset/images/bikes/Activa_6G.webp" alt="Activa 6G" className="carousel-image" />
+						<img src="/asset/images/Bike/honda_activa_6g.png" alt="Activa 6G" className="carousel-image" />
 					</div>
 					<div className="image-slide">
-						<img src="/asset/images/bikes/Duke_200.webp" alt="Duke 200" className="carousel-image" />
+						<img src="/asset/images/Bike/ktm_duke_200.png" alt="Duke 200" className="carousel-image" />
 					</div>
 					<div className="image-slide">
-						<img src="/asset/images/bikes/Avenger_220.webp" alt="Avenger 220" className="carousel-image" />
+						<img src="/asset/images/Bike/royal_enfield_guerrilla_450.png" alt="Guerrilla 450" className="carousel-image" />
 					</div>
 					<div className="image-slide">
-						<img src="/asset/images/bikes/Apache_RTR_310.webp" alt="Apache RTR 310" className="carousel-image" />
+						<img src="/asset/images/Bike/tvs_apache_rtr_310.png" alt="Apache RTR 310" className="carousel-image" />
 					</div>
 				</Slider>
 			</div>
