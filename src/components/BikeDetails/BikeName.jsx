@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { useNavigate } from 'react-router-dom';
+import { WishlistContext } from "../../App";
 
 const BikeName = ({ bike }) => {
+	const {wishlist,addToWishlist}=useContext(WishlistContext)
 	const navigate = useNavigate();
 	const handlePrice = () => {
 		navigate(`/OnRoadPrice/${bike.model}`);
@@ -37,6 +39,10 @@ const BikeName = ({ bike }) => {
 				<h2>{bike.price}.00</h2>
 				<p>*Ex-showroom price</p>
 				<button className="w-50 btn btn-danger" onClick={handlePrice}>Get on Road Price</button>
+				<button  className="w-50 btn btn-danger" onClick={()=>{
+					addToWishlist(bike);
+					alert("Added")
+				}}>Add To Wishlist</button>
 			</div>
 		</div>
 	);

@@ -1,4 +1,4 @@
-import {Form,FormGroup,FormLabel,FormControl,Container, Button,FormText} from'react-bootstrap'
+import {Button} from'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {useState} from "react"
 import { useNavigate } from "react-router-dom";
@@ -25,7 +25,7 @@ const LoginForm = ({newUser})=>{
     }
                                                                     
     return (
-        <div className="container border border-secondary p-3 mt-3 rounded w-25 shadow-lg">
+        <div className="container border border-secondary p-3 mt-3 rounded shadow-lg col-12 col-lg-3 col-sm-9 ">
             <h3 className='text-center fw-bolder '>Login to Bikebook</h3>
             <p className="mt-3 " >New user?<button className="btn btn-link fw-bolder" onClick={newUser}>Sign up</button></p>
             <form onSubmit={handleSubmit}> 

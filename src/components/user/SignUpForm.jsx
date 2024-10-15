@@ -25,7 +25,7 @@ const SignUpForm = ({ existingUser }) => {
 	};
 
 	return (
-		<Container className="w-25 border border-secondary rounded mt-3 p-3 shadow-lg">
+		<Container className="border border-secondary p-3 mt-3 rounded shadow-lg col-12 col-lg-3 col-sm-9">
 			<h2 className="text-center fw-bold fs-2">Sign up to Bikebook</h2>
 
 			<Form onSubmit={submitForm}>
@@ -92,7 +92,7 @@ const SignUpForm = ({ existingUser }) => {
 					</Button>
 				</Container>
 			</Form>
-			{user.password != user.confirmPassword && (
+			{user.password !== user.confirmPassword && (
 				<p style={{ color: "red" }}>Confirm password is not matched</p>
 			)}
 		</Container>

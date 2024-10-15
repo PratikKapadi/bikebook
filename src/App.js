@@ -1,15 +1,29 @@
 import './App.css';
-import BikeDetails from './components/BikeDetails/BikeDetails';
-import GetOnRoadPrice from './components/GetOnRoad/GetOnRoadPrice';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import AppRouter from './router/AppRouter';
+import { createContext, useReducer } from 'react';
 
+
+export const WishlistContext=createContext();
+
+const WishlistReducer=(wishlist,action)=>{
+  switch (action.type) {
+    case "ADDTOWISHLIST":return [...wishlist,action.item]
+    case "REMOVETOWISHLIST":return wishlist.filter(wishlistItem=>wishlistItem !=action.item)
+    default:
+      return wishlist;
+  }
+
+}
 function App() {
+  const [wishlist,setWishlist]=useReducer(WishlistReducer,[])
+  const addToWishlist=product=>setWishlist({type:"ADDTOWISHLIST",item:product})
+  const removeFromWishlist=product=>setWishlist({type:"REMOVETOWISHLIST",item:product})
   return (
     <div >
+      <WishlistContext.Provider value={{wishlist,addToWishlist,removeFromWishlist}}>
        <AppRouter/>
-      {/* <BikeDetails model="Unicorn"/> */}
-      {/* <GetOnRoadPrice model="Unicorn"/> */}
+       </WishlistContext.Provider>
     </div>
   );
 }
