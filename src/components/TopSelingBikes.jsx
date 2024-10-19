@@ -17,7 +17,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>Honda Unicorn</Card.Title>
                 <Card.Text>
-                  &#8377;1,05,000 onwards
+                  &#8377;1,05,000.00 onwards
                   <br />
                   <Rating initialValue={"4.6"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -33,7 +33,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>Honda Activa 6G</Card.Title>
                 <Card.Text>
-                  &#8377;73,900 onwards
+                  &#8377;73,900.00 onwards
                   <br />
                   <Rating initialValue={"4.3"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -49,7 +49,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>Bajaj Dominar 400</Card.Title>
                 <Card.Text>
-                  &#8377;2,40,000 onwards
+                  &#8377;2,40,000.00 onwards
                   <br />
                   <Rating initialValue={"4.8"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -65,7 +65,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>TVS Apache RTR 310</Card.Title>
                 <Card.Text>
-                  &#8377;3,10,000 onwards
+                  &#8377;3,10,000.00 onwards
                   <br />
                   <Rating initialValue={"4"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -81,7 +81,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>KTM Duke 390</Card.Title>
                 <Card.Text>
-                  &#8377;2,70,000 onwards
+                  &#8377;2,70,000.00 onwards
                   <br />
                   <Rating initialValue={"3.5"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -97,7 +97,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>Ola S1 X</Card.Title>
                 <Card.Text>
-                  &#8377;1,10,000 onwards
+                  &#8377;1,10,000.00 onwards
                   <br />
                   <Rating initialValue={"4.2"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -113,7 +113,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>Royal Enfield Hunter 350</Card.Title>
                 <Card.Text>
-                  &#8377;1,49,900 onwards
+                  &#8377;1,49,900.00 onwards
                   <br />
                   <Rating initialValue={"4.3"} size={20} readonly allowFraction />
                 </Card.Text>
@@ -129,7 +129,7 @@ const TopSellingBikes = () => {
               <Card.Body>
                 <Card.Title>TVS Jupiter</Card.Title>
                 <Card.Text>
-                  &#8377;73,700 onwards
+                  &#8377;73,700.00 onwards
                   <br />
                   <Rating initialValue={"5"} size={20} readonly allowFraction />
                 </Card.Text>

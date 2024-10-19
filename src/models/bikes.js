@@ -4,6 +4,9 @@ export const locateBike = (collection, targetModel) => {
 export const locateCity = (collection, targetModel) => {
     return collection.find(item => item.city === targetModel);
 }
+export const wishlistBike = (collection, targetModel) => {
+    return collection.find(item => item.model === targetModel);
+}
 
 export const cityName=(cityObject)=>{
     const citys=cityObject.map(city=>city.city)

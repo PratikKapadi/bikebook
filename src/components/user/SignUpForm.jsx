@@ -9,6 +9,7 @@ import {
 } from "react-bootstrap";
 import React from "react";
 import { useState } from "react";
+import { toast } from "react-toastify";
 
 const SignUpForm = ({ existingUser }) => {
 	const [user, setUser] = useState({
@@ -21,7 +22,13 @@ const SignUpForm = ({ existingUser }) => {
 	//event handler to handle sign up from submit evnt
 	const submitForm = (e) => {
 		e.preventDefault();
-		alert("congrats you have successfully register!");
+		toast.success("congrats you have successfully register!", {
+			theme: "dark",
+			onClose: () => {
+				existingUser();
+			},
+			autoClose: 3000,
+		});
 	};
 
 	return (
@@ -33,7 +40,7 @@ const SignUpForm = ({ existingUser }) => {
 					Already have an account?
 					<button className="btn btn-link fw-bolder" onClick={existingUser}>
 						Log in
-					</button>{" "}
+					</button>
 				</p>
 
 				<FormGroup className="mb-3">

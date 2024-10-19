@@ -2,6 +2,8 @@ import './App.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import AppRouter from './router/AppRouter';
 import { createContext, useReducer } from 'react';
+import 'react-toastify/dist/ReactToastify.css';
+import {ToastContainer} from "react-toastify"
 
 
 export const WishlistContext=createContext();
@@ -23,6 +25,7 @@ function App() {
     <div >
       <WishlistContext.Provider value={{wishlist,addToWishlist,removeFromWishlist}}>
        <AppRouter/>
+       <ToastContainer />
        </WishlistContext.Provider>
     </div>
   );
