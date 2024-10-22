@@ -7,7 +7,7 @@ const TopSellingBikes = () => {
 
     return (
 
-    <div className='container'>
+    <div className='container' id='Top_Selling'>
       <h4 className='mt-3'>Top Selling Bikes</h4>
       <div className='row'>
         <div className='col-md-6 mb-4'>

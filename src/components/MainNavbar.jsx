@@ -125,10 +125,9 @@ const MainNavbar = () => {
 				</li>
 				<li className="nav-item dropdown ms-3 ">
 					<p
-						className="text-secondary-emphasis nav-link disabled"
+						className="text-secondary-emphasis nav-link"
 						data-bs-toggle="dropdown"
 						aria-expanded="false"
-						aria-disabled="true"
 					>
 						Our Choices
 					</p>

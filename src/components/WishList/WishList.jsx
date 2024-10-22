@@ -3,6 +3,7 @@ import { WishlistContext } from "../../App";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
+import EmptyWishList from "./EmptyWishList";
 
 const WishList = () => {
 	const navigate=useNavigate()
@@ -10,9 +11,7 @@ const WishList = () => {
 	return (
 		<div className="text-center">
 			{wishlist.length === 0 ? (
-				<div>
-					<h2>Wishlist is Empty</h2>
-				</div>
+				<EmptyWishList/>
 			) : (
 				<div className="d-flex flex-column gap-3">
 					<h2 className="ms-3">My Wishlist</h2>
