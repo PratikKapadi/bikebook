@@ -11,7 +11,7 @@ export const WishlistContext=createContext();
 const WishlistReducer=(wishlist,action)=>{
   switch (action.type) {
     case "ADDTOWISHLIST":return [...wishlist,action.item]
-    case "REMOVETOWISHLIST":return wishlist.filter(wishlistItem=>wishlistItem !=action.item)
+    case "REMOVETOWISHLIST":return wishlist.filter(wishlistItem=>wishlistItem !==action.item)
     default:
       return wishlist;
   }

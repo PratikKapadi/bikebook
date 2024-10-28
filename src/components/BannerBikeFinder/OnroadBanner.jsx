@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+
 import { FaSearch } from "react-icons/fa";
 import "./OnroadBanner.css";
 import bikes from "../../database/bikes_data";
 import { useNavigate } from "react-router-dom";
 
 const OnroadBanner = () => {
-  const [model, setModel] = useState("");
   const navigate = useNavigate();
 
   const handlePrice = (e) => {
@@ -16,7 +15,6 @@ const OnroadBanner = () => {
 
     // Only navigate if a model was selected
     if (bikeModel) {
-      setModel(bikeModel); 
       navigate(`/OnRoadPrice/${bikeModel}`);
     }
   };
