@@ -11,6 +11,7 @@ const BannerBikeFinder = () => {
 	const navigate = useNavigate();
 	const brands = brandList(bikes);
 	const brandByBikeObject = bikeByBrand(bike.brand, bikes);
+	console.log(bike.brand);
 	const handleSubmit = () => {
 		navigate(`/bike/${bike.model}`);
 	};

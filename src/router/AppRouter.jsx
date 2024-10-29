@@ -7,6 +7,9 @@ import WishList from '../components/WishList/WishList';
 import BikeDetails from '../components/BikeDetails/BikeDetails';
 import GetOnRoadPrice from '../components/GetOnRoad/GetOnRoadPrice';
 import PrivacyPolicy from '../components/PrivacyPolicy';
+import BrandBikes from '../components/BrandBikes/BrandBikes';
+import BikeComparison from '../components/BikeComparison/BikeComparison';
+import TopSellingBikes from '../components/TopSelingBikes';
 
 const AppRouter = () => {
     return (
@@ -20,6 +23,9 @@ const AppRouter = () => {
                     <Route path='/OnRoadPrice/:model' element={<GetOnRoadPrice/>}/>
                     <Route path='/login-register' element={ <LoginRegister/> }/>
                     <Route path='/privacy' element={<PrivacyPolicy/>}  />
+                    <Route path='/brand/:brand' element={<BrandBikes/>}  />
+                    <Route path='/compare/:model1/:model2' element={<BikeComparison/>}/>
+                    <Route path='/ourchoices' element={<TopSellingBikes/>}/>
                 </Route>
                   
             </Routes>
